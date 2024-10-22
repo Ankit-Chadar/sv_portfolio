@@ -19,6 +19,5 @@
       "src": "/(.*)",
       "dest": "/home.html"
     }
-  ],
-  "ignore": ["README.md", "vercel.json"]
+  ]
 }
