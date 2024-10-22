@@ -4,6 +4,14 @@
     {
       "src": "home.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "home.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.png",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -11,5 +19,6 @@
       "src": "/(.*)",
       "dest": "/home.html"
     }
-  ]
+  ],
+  "ignore": ["README.md", "vercel.json"]
 }
